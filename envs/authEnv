@@ -1,0 +1,7 @@
+PORT=3030
+NODE_ENV=production
+SSL_KEY_PATH=/etc/letsencrypt/live/example.com/privkey.pem
+SSL_CERT_PATH=/etc/letsencrypt/live/example.com/fullchain.pem
+DOMAIN=example.com
+#ALLOWED_ORIGINS=[xxxx, xxxx, xxxx]
+ALLOWED_ORIGINS=["http://localhost:3000","http://localhost:4200","http://127.0.0.1:3030","https://example.com:3030","https://example.com:4200"]
